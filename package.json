@@ -1,0 +1,19 @@
+{
+  "name": "steam-hourboost",
+  "version": "1.0.0",
+  "description": "Steam playtime idler (hour boost) with refresh-token login, Steam Guard support, auto-reconnect and health endpoint",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pino": "^9.4.0",
+    "pino-pretty": "^11.2.2",
+    "steam-totp": "^2.1.2",
+    "steam-user": "^5.2.0"
+  }
+}
